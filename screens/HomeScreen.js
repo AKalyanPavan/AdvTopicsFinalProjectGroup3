@@ -203,7 +203,7 @@ export default function HomeScreen() {
                     </ScrollView>
                 </View>
                 <TouchableOpacity onPress={handleLogout}>
-                    <Text>Logout</Text>
+                    <Text className="text-white font-bold ml-[20px] mt-[30px] py-[10px] text-[25px]">Logout</Text>
                 </TouchableOpacity>
             </SafeAreaView>
         </View>
